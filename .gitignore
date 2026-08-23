@@ -1,0 +1,32 @@
+# 密钥与本地环境（API key 一律放 .env，绝不提交）
+.env
+.env.*
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.uv/
+
+# Node
+node_modules/
+
+# 数据与模型（体积大，不入库）
+data/
+models/
+*.faiss
+*.bin
+
+# 日志与临时
+*.log
+tmp/
+
+# 编辑器/系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
